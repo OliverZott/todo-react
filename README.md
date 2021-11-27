@@ -1,3 +1,20 @@
+# Setup
+- `npx create-react-app <appname>`
+- `cd <appname>`
+- `npm install antd`
+- [Minor adjustments](https://ant.design/docs/react/use-with-create-react-app) 
+- in console: `npm start`
+
+
+
+
+
+
+
+
+
+
+-----------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
