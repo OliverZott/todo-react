@@ -1,11 +1,13 @@
+// eslint-disable-next-line 
 import React, { useState } from 'react';
+// eslint-disable-next-line 
 import { Tooltip, Tag, List, Button, Popconfirm, Switch } from 'antd';
 import { CloseOutlined, CheckOutlined } from '@ant-design/icons';
 
 
 const Todo = ({ todo, onTodoRemoval, onTodoToggle }) => {
     return (
-        <List-Item
+        <List
 
             actions={ [
                 <Tooltip

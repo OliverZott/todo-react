@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Row, Input } from 'antd';
+import { Form, Row, Col, Input } from 'antd';
 import { PlusCircleFilled } from '@ant-design/icons';
 
 
@@ -23,20 +23,20 @@ const TodoForm = ({ onFormSubmit }) => {
             layout="horizontal"
             className="todo-form">
             <Row gutter={ 20 }>
-                <col xs={ 24 } sm={ 24 } md={ 17 } lg={ 19 } xl={ 20 }>
+                <Col xs={ 24 } sm={ 24 } md={ 17 } lg={ 19 } xl={ 20 }>
                     <Form.Item
                         name={ 'title' }
                         rules={ [{ required: true, message: 'Field is required' }] }>
-                        <Input placeholder='Insert Todo'></Input>
+                        <Input placeholder='Insert Todo'/>
                     </Form.Item>
-                </col>
-                <col xs={ 24 } sm={ 24 } md={ 7 } lg={ 5 } xl={ 4 } >
+                </Col>
+                <Col xs={ 24 } sm={ 24 } md={ 7 } lg={ 5 } xl={ 4 } >
                     <button type="primary" htmlType="submit" block>
                         <PlusCircleFilled>
                             Add Todo
                         </PlusCircleFilled>
                     </button>
-                </col>
+                </Col>
             </Row>
 
         </Form >
