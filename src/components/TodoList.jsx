@@ -19,7 +19,7 @@ const TodoList = () => {
     const [refreshing, setRefreshing] = useState(false);
     const [todos, setTodos] = useState([]);
     const [activeTodos, setActiveTodos] = useState([]);
-    const [completedTodos, setCompletedTodos] = useState();  // [] missing ????
+    const [completedTodos, setCompletedTodos] = useState([]);  // [] missing ????
 
 
     // method to make changes to todo

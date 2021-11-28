@@ -8,6 +8,18 @@
 - Typescript installed:
 -   - `npm install --save typescript @types/node @types/react @types/react-dom @types/jest`
 
+# Setup project from repo
+### Backend
+- Install PostgreSQL 
+  - user: postgres
+  - password: password (set after install)
+- `git clone https://github.com/OliverZott/todo-springboot.git`
+  
+### Frontend
+- `git clone https://github.com/OliverZott/todo-react.git`
+- `npm install`
+- `npm start`
+
 
 # Remarks
 ## React

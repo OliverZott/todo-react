@@ -24,7 +24,7 @@ export const createTodo = (todo: any) => {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({
-            "title": "Todo#1 form react",
+            "title": todo.title,
             "completed": false
         }),
     }).then((res) => res.json());
