@@ -5,10 +5,16 @@
 - [Minor adjustments](https://ant.design/docs/react/use-with-create-react-app) 
 - in console: `npm start`
 
+- Typescript installed:
+-   - `npm install --save typescript @types/node @types/react @types/react-dom @types/jest`
 
 
+# Remarks
+## React
+- **export default**
+  - https://stackoverflow.com/questions/36426521/what-does-export-default-do-in-jsx
 
-
+## TypeScript
 
 
 

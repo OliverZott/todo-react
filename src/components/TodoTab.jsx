@@ -1,0 +1,28 @@
+import React, { userEffect } from 'react';
+import { Tabs, Layout, Row, Col, List } from 'antd';
+import Todo from './TodoItem'
+
+
+const TodoTab = ({ todos, onTodoRemoval, onTodoToggle }) => {
+    return (
+        <>
+            <List
+                locale={ { emptyText: 'Nothing todo', } }
+                dataSource={ todos }
+                renderItem={ (todo) => (
+                    <Todo
+                        todo={ todo }
+                        onTodoToggle={ onTodoToggle }
+                        onTodoRemoval={ onTodoRemoval }
+                    />
+                ) }
+                pagination={ {
+                    position: 'bottom',
+                    pageSize: 10,
+                } }
+            />
+        </>
+    )
+}
+
+export default TodoTab;
